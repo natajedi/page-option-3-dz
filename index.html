@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Web Docs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<body class="wrapper">
+<header class="header wrapper__header">
+    <!--<div class="container header__container">-->
+        <nav class="header__navigation flex-container">
+            <div class="header__navigation-group">
+                <img class="header__logo" src="assets/images/readingpanel26.png" alt="Logo">
+                <div class="header-links">
+                    <a class="header-links__item link" href="/references/">References</a>
+                    <a class="header-links__item link" href="/guides/">Guides</a>
+                    <a class="header-links__item link" href="/plus/">Plus</a>
+                    <a class="header-links__item link" href="/blog/">Blog</a>
+                    <a class="header-links__item link" href="/play/">Play</a>
+                    <a class="header-links__item link" href="/aihelp/">AI Help</a>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <button class="header__theme-toggle" id="theme-toggle" type="button">
+                <img class="header__theme-icon"
+                     src="assets/images/circle22.png"
+                     alt="Theme">
+                <span class="header__theme-text">Theme</span>
+            </button>
+            <div class="header__search-container container">
+                <div class="header__search-input-container">
+                    <input class="header__search-input" type="search" name="search">
+                </div>
+            </div>
+            <div class="header__login-container container">
+                <a class="header__login-link link" href="#">Log in</a>
+            </div>
+            <div class="header__signup-container container">
+                <button class="header__signup-btn" type="submit">Sign up for free</button>
+            </div>
+        </div>
+    <!--</div>-->
+</header>
+<div class="breadcrumbs"> 
+    <div class="container breadcrumbs__container">
+        <a class="breadcrumbs__reference" href="/references/">References>HTML</a>
+        <button class="breadcrumbs__button" id="english-btn" type="button">
+            <img class="breadcrumbs__icon"
+                 src="assets/images/globe22.png"
+                 alt="English (US)">English (US)
+        </button>
+    </div>
+</div>
+<main class="main flex-container">
+    <!--<div class="main__container flex-container">-->
+        <aside class="main__left-sidebar flex">
+            <div class="main__sidebar-content">
+                <label class="main__sidebar-label" for="filter"></label>
+                <input class="main__sidebar-filter"
+                       type="text"
+                       id="filter"
+                       placeholder="Filter">
+                <section class="main__sidebar-section main-margin">
+                    <h3 class="main__sidebar-title">HTML</h3>
+                    <ul class="main__sidebar-list">
+                        <li class="main__sidebar-item">HTML</li>
+                        <li class="main__sidebar-item">Tutorials</li>
+                        <li class="main__sidebar-item">Html basics</li>
+                        <li class="main__sidebar-item">Multimedia and embedding</li>
+                        <li class="main__sidebar-item">HTML tables</li>
+                    </ul>
+                </section>
+            </div>
+        </aside>
+        <div class="main__content flex">
+            <article class="main__content-article main-margin">
+                <h1 class="main__content-title main-margin">HTML: HyperText Markup Language</h1>
+                <p class="main__content-text main-margin">
+                    The articles below can help you learn more about HTML.
+                </p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Pellentesque vulputate eget lectus at semper. Nullam tincidunt diam
+                in purus aliquet, in placerat nisl interdum. Suspendisse rutrum
+                mauris eu bibendum hendrerit. Duis nec mauris et mi commodo
+                hendrerit. Morbi dignissim blandit luctus. Praesent leo augue,
+                egestas lobortis ultricies eget, efficitur vel erat. Sed at urna
+                porttitor mi elementum porta.
+            </article>
+            <article>
+                <br>
+                <h2>The Input (Form Input) element</h2>
+                <p>The available types are as follows:</p>
+                <ul>
+                    <li>
+                        <input type="button" value="Button Label">
+                        <br>
+                        A push button with no default behavior displaying the value of
+                        the value attribute, empty by default.
+                    </li>
+                    <li>
+                        <input type="week" name="week">
+                        <br>
+                        A control for entering a date consisting of a week-year number
+                        and a week number with no time zone.
+                    </li>
+                </ul>
+            </article>
+        </div>
+        <aside class="main__right-sidebar flex">
+            <!--<div class="main__sidebar-content">-->
+                <section class="main__sidebar-section">
+                    <h4 class="main__sidebar-title">In this article</h4>
+                    <ul class="main__sidebar-list">
+                        <li class="main__sidebar-item">Key resources</li>
+                        <li class="main__sidebar-item">Beginner's tutorials</li>
+                        <li class="main__sidebar-item">Advanced topics</li>
+                        <li class="main__sidebar-item">Reference</li>
+                        <li class="main__sidebar-item">Related topics</li>
+                    </ul>
+                </section>
+            <!--</div>-->
+        </aside>
+    </div>
+</main>
+<footer class="footer">
+        <section class="footer__section flex-container">
+            <div class="footer__logo-icons">
+                <div class="footer__section_logo">
+                    <h2 class="footer__text">mdn</h2>
+                    <h4 class="footer__text">Your blueprint for a better internet.</h4>
+                </div>
+                <div class="footer__icons">
+                    <img class="footer__icon" src="assets/images/twitter22.png" alt="Twitter icon">
+                    <img class="footer__icon" src="assets/images/rssfeeds22.png" alt="RSS icon">
+                    <img class="footer__icon" src="assets/images/github22.png" alt="Github icon">
+                </div>
+            </div>
+            <ul class="footer__list">
+                <li class="footer__list-item">MDN</li>
+                <li class="footer__list-item">About</li>
+                <li class="footer__list-item">Blog</li>
+                <li class="footer__list-item">Careers</li>
+                <li class="footer__list-item">Advertise with us</li>
+            </ul>
+            <ul class="footer__list">
+                <li class="footer__list-item">Support</li>
+                <li class="footer__list-item">Product help</li>
+                <li class="footer__list-item">Report an issue</li>
+            </ul>
+            <ul class="footer__list">
+                <li class="footer__list-item">Our communities</li>
+                <li class="footer__list-item">MDN Community</li>
+                <li class="footer__list-item">MDN Forum</li>
+                <li class="footer__list-item">MDN Chat</li>
+            </ul>
+            <ul class="footer__list">
+                <li class="footer__list-item">Developers</li>
+                <li class="footer__list-item">Web Technologies</li>
+                <li class="footer__list-item">Learn Web Development</li>
+                <li class="footer__list-item">MDN Plus</li>
+            </ul>
+        </section>
+        <section class="footer__section">
+            <h5 class="footer__text">
+                ©1998–2023. Content available under a Creative Commons license.
+            </h5>
+        </section>
+</footer>
+</body>
+</html>
