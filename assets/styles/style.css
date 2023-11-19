@@ -1,0 +1,290 @@
+body {
+ font-family: Arial, sans-serif;
+}
+
+.flex-space-between {
+ display: flex;
+ justify-content: space-between;
+}
+
+.header,
+.main,
+.header__wrapper,
+.header__navigation,
+.header__navigation-group,
+.main__container,
+.footer__section,
+.footer__list-item,
+.breadcrumbs__container,
+.row,
+.flex-container,
+.header__container {
+ display: flex;
+ justify-content: space-between;
+}
+
+.flex-align-center {
+ display: flex;
+ align-items: center;
+}
+
+.header__navigation-group,
+.header__search-container,
+.header__login-container,
+.header__signup-container,
+.main__sidebar-content,
+.main__sidebar-filter,
+.main__sidebar-select,
+.main__sidebar-section,
+.main__sidebar-title,
+.main__sidebar-list,
+.main__sidebar-item,
+.main__content-article,
+.main__content-hr,
+.main__content-title,
+.main__content-text,
+.footer__logo-icons,
+.footer__list-item {
+ display: flex;
+ align-items: center;
+}
+
+.header {
+   background-color: #ffffff;
+   z-index: 100;
+   border-bottom: 1px solid rgb(52, 51, 51);
+   flex-wrap: wrap;
+}
+
+.main {
+   width: 70%;
+   margin: 0 auto;
+}
+
+.header__wrapper {
+   background-color: #f8f7f7;
+}
+
+.header__navigation {
+   flex-wrap: wrap;
+}
+
+/*.header__navigation-group {
+}*/
+
+.header__logo {
+   height: 50px;
+   margin-right: 20px; /* Хорошо */
+}
+
+.header__link {
+   text-decoration: none;
+   color: #333;
+}
+
+.header__theme-toggle {
+   background-color: transparent;
+   border: none;
+   cursor: pointer;
+}
+
+.header__theme-icon {
+   height: 20px;
+   margin-right: 5px;
+}
+
+.header__theme-text {
+   color: #333;
+}
+
+.header__search-container {
+   margin-left: 20px;
+}
+
+.header__search-input {
+   padding: 5px;
+   border-radius: 10px;
+}
+
+.header__login-container {
+   margin-left: 20px;
+}
+
+.header__login-link {
+   padding-top: 5px;
+   padding-bottom: 5px;
+   text-decoration: none;
+   color: #333;
+}
+
+.header__signup-container {
+   margin-left: 20px;
+}
+
+.header__signup-btn {
+   align-items: center;
+   background-color: #000000;
+   border: 1px solid;
+   border-radius: 5px;
+   color: #fff;
+   gap: 0.25rem;
+   justify-content: center;
+   position: relative;
+}
+
+.line {
+   border: none;
+   border-top: 1px solid #000;
+   margin: 10px 0;
+}
+
+.breadcrumbs__reference {
+   position: relative;
+   z-index: 0;
+   text-decoration: none;
+   color: #101010;
+}
+
+.breadcrumbs__button {
+   background-color: transparent;
+   border: none;
+}
+
+.button {
+   cursor: pointer; 
+}
+
+.breadcrumbs__icon {
+   height: 20px;
+   margin-left: 5px;
+}
+
+.main__left-sidebar {
+   flex: 1;
+}
+
+.main__right-sidebar {
+   flex: 1;
+   overflow: hidden;
+   padding-top: 20px; 
+}
+
+.main__content {
+   flex: 2;
+}
+
+.main__sidebar-content {
+   padding: 20px;
+   font-size: 12px;
+}
+
+.main__sidebar-label {
+   display: block;
+   margin-bottom: 10px;
+}
+
+.main__sidebar-filter {
+   width: 40%;
+   padding: 10px;
+   margin-bottom: 20px;
+}
+
+.main__sidebar-select {
+   width: 40%;
+   padding: 10px;
+}
+
+.main__sidebar-section {
+   margin-bottom: 10px;
+   font-size: 10px;
+}
+
+.main__sidebar-title {
+   margin-bottom: 10px;
+}
+
+.main__sidebar-list {
+   list-style-type: none;
+   padding: 0;
+}
+
+.main__sidebar-item {
+   margin-bottom: 10px;
+}
+
+.main__content-article {
+   margin-bottom: 20px;
+}
+
+.main__content-hr {
+   border: none;
+   border-top: 1px solid #000;
+   margin: 20px 0;
+}
+
+.main__content-title {
+   margin-bottom: 20px;
+}
+
+.main__content-text {
+   margin-bottom: 20px;
+}
+
+.footer {
+   list-style-type: none;
+   background-color: #eff0f1;
+}
+
+.footer__section {
+   align-items: center;
+   border-bottom: 1px solid black;
+   padding-bottom: 10px;
+}
+
+.footer__logo-icons {
+   flex-direction: column;
+}
+
+.footer__list-item {
+   align-items: center;
+   font-size: 14px;
+}
+
+.footer__list-item:first-child {
+   font-weight: bold;
+   font-size: 14px;
+}
+
+.container {
+   max-width: 1440px;
+}
+
+.header__container {
+   width: 100%;
+   flex-wrap: wrap;
+}
+
+.header-links {
+   gap: 16px;
+}
+
+.row {
+   flex-wrap: wrap;
+}
+
+.breadcrumbs__container {
+   border-bottom: 1px solid black;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   background-color: #eff0f1;
+   overflow: hidden;
+}
+
+.flex-container {
+   flex-wrap: wrap;
+}
+
+.link {
+   text-decoration: none;
+   color: #000000;
+}
